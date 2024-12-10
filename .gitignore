@@ -1,0 +1,77 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# FastAPI specific
+*.log
+*.pid
+
+# Database and SQLite files
+*.db
+*.sqlite3
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+alembic/versions/*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Editor settings and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test output
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Python package files
+*.egg
+*.egg-info
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Env variables
+.env
+*.env.*
+
+# Logs
+logs/
+*.log
+
+# Node.js (for Svelte frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build artifacts
+build/
+dist/
